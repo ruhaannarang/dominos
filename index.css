@@ -153,20 +153,29 @@ align-items: center;
     width: 100%;
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    overflow-x: auto;
     align-items: center;
     gap: 40px;
     padding: 20px;
+
 }
-.bestsellerimages{
+.bestselleroptions{
+    position: relative;
     width: 350px;
     height: 350px;
+    flex-shrink: 0;
+}
+.bestsellerimages{
+    width: 100%;
+    height: 100%;
     border-radius: 15px;
-    position: static;
+    position: absolute;
+    
     
     
 }
 .bestsellerdiscription{
     position: absolute;
     z-index: 2;
+    /* top: 0; */
 }
