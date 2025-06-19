@@ -180,9 +180,12 @@ align-items: center;
 .bestsellerdiscription{
     position: absolute;
     z-index: 2;
+    width: 100%;
     /* top: 0; */
     padding-bottom: 20px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,  rgba(0, 0, 0, 0.871) 100%);
 }
 .customize{
     /* text-align: end; */
@@ -202,11 +205,22 @@ align-items: center;
     justify-content: end;
 }
 .name{
+    padding-left: 10px;
     color: white;
     font-weight: 1000;
     font-size: larger;
 
 }
 .pizzadiscript{
-    
+    padding-left: 10px;
+    color: white;
+    font-size: small;
+    padding-bottom: 10px;
+}
+.detaileddiscription{
+    padding-top: 10px;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    /* filter: blur(2px); */
 }
