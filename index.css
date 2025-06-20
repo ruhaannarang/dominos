@@ -10,11 +10,7 @@ body{
     background-color: white;
     --margin-main: 20px;
 }
-.nav{
-    height: 60px;
-    width: 100%;
-    border: 2px solid rgb(19, 19, 19);
-}
+
 .eatoptions{
     /* width: 100vw; */
     height: 50px;
@@ -277,4 +273,65 @@ align-items: center;
     background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 230, 183) 50%, rgb(254, 254, 254) 100%);
     color: rgb(188, 111, 66);
     padding: 10px 0 10px 0;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer img{
+    width: 30px;
+
+}
+.footer-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666666;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid rgb(19, 19, 19); */
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.user-location{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+.user-location img{
+    width: 20px;
+}
+.inred-location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: #e31837;
+    font-size: medium;
+    font-weight: 600;
+}
+.inblack-location{
+  color: #2e2e35;
+  font-size: smaller;
+}
+.userprofile{
+    border: 2px solid #969696;
+    border-radius: 50%;
+    padding: 3px;
 }
